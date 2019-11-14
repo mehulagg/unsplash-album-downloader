@@ -17,7 +17,7 @@ jobs:
       run: |
         sudo apt-get install python-pip
         pip install -r requirements.txt
-        python download_collection_album.py -c 1065976 raw
+        python download_collection_album.py -c 1065976/wallpapers raw
 
     - uses: actions/upload-artifact@master
       with:
