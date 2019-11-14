@@ -19,7 +19,7 @@ jobs:
         pip install -r requirements.txt
         python download_collection_album.py wallpaper raw
 
-   - uses: actions/upload-artifact@master
-     with:
-       name: wallpapers
-       path: /
+    - uses: actions/upload-artifact@master
+      with:
+        name: wallpapers
+        path: /
