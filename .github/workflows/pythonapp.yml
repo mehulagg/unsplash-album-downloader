@@ -17,7 +17,7 @@ jobs:
       run: |
         sudo apt-get install python-pip
         pip install -r requirements.txt
-        python download_user_album.py unsplash all raw
+        python download_collection_album.py 1065976 -c raw
 
     - uses: actions/upload-artifact@master
       with:
